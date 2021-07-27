@@ -1,6 +1,6 @@
 ## %%writefile score.py
 import json
-import numpy as np
+import pandas as pd
 import os
 import pickle
 import joblib
@@ -15,8 +15,9 @@ def init():
     model = joblib.load(model_path)
 
 def run(raw_data):
-    data = np.array(json.loads(raw_data)['data'])
+    data = pd.DataFrame(json.loads(raw_data)['data'])
     # make prediction
+    
     y_hat = model.predict(data)
     # you can return any data type as long as it is JSON-serializable
     return y_hat.tolist()
