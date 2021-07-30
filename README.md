@@ -103,7 +103,7 @@ To create a hyperdrove experiment a few steps need to be executed to setup the e
 
 Hyperdrive results gave an accuracy of 0.9777 as indicated below. 
 ```
-[{'run_id': 'HD_78adb20a-9fa6-4160-8e0b-5fefb096f3b5_14', 'hyperparameters': '{"--C": 0.972741918863652, "--max_iter": 150}', 'best_primary_metric': 0.9777777777777777, 'status': 'Completed'}]
+[{'run_id': 'HD_845b306e-6d37-4f5f-9c9f-1f610cf347c7_8', 'hyperparameters': '{"--C": 0.7772069615440829, "--max_iter": 100}', 'best_primary_metric': 0.9777777777777777, 'status': 'Completed'}]
 ```
 ![Diagram](./screenshots/15.PNG?raw=true "Training result")
 
