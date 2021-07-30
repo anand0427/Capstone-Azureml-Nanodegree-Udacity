@@ -1,0 +1,38 @@
+2021-07-30 21:31:35,157|azureml|DEBUG|Execute Job Release Inputs:: kwargs: {'disable_output_upload': True}, track_folders: None, deny_list: None, directories_to_watch: []
+2021-07-30 21:31:35,158|azureml.history._tracking.PythonWorkingDirectory|DEBUG|Execution target type: batchai
+2021-07-30 21:31:35,159|azureml.history._tracking.PythonWorkingDirectory|DEBUG|Failed to import pyspark with error: No module named 'pyspark'
+2021-07-30 21:31:35,159|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Pinning working directory for filesystems: ['pyfs']
+2021-07-30 21:31:35,159|azureml.core.run|DEBUG|Identity in use is not set. Falling back to using AMLToken
+2021-07-30 21:31:35,159|azureml.core.run|DEBUG|Using AMLToken auth for remote run
+2021-07-30 21:31:35,161|azureml.core.authentication.TokenRefresherDaemon|DEBUG|Starting daemon and triggering first instance
+2021-07-30 21:31:35,171|azureml._restclient.clientbase|INFO|Created a worker pool for first use
+2021-07-30 21:31:35,171|azureml.core.authentication|DEBUG|Time to expire 1814012.828101 seconds
+2021-07-30 21:31:35,172|azureml._restclient.service_context|DEBUG|Created a static thread pool for ServiceContext class
+2021-07-30 21:31:35,172|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.api.azureml.ms.
+2021-07-30 21:31:35,172|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.api.azureml.ms.
+2021-07-30 21:31:35,172|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.api.azureml.ms.
+2021-07-30 21:31:35,172|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.api.azureml.ms.
+2021-07-30 21:31:35,173|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.api.azureml.ms.
+2021-07-30 21:31:35,173|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.api.azureml.ms.
+2021-07-30 21:31:35,173|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.api.azureml.ms.
+2021-07-30 21:31:35,352|azureml._SubmittedRun#HD_0341301e-da13-4d2f-afc9-465a815bcd0f_4.RunHistoryFacade.RunClient.get_by_exp_id-async:False|DEBUG|[START]
+2021-07-30 21:31:35,353|azureml._SubmittedRun#HD_0341301e-da13-4d2f-afc9-465a815bcd0f_4.RunHistoryFacade.RunClient|DEBUG|ClientBase: Calling get_by_exp_id with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}/runs/{runId}
+2021-07-30 21:32:05,163|azureml.core.authentication|DEBUG|Time to expire 1813982.836714 seconds
+2021-07-30 21:32:32,346|azureml._SubmittedRun#HD_0341301e-da13-4d2f-afc9-465a815bcd0f_4.RunHistoryFacade.RunClient|DEBUG|Retrying operation: <bound method RunOperations.get_by_exp_id of <azureml._restclient.operations.run_operations.RunOperations object at 0x7fba0ede63c8>> failed with Error: Error occurred in request., ConnectionError: HTTPSConnectionPool(host='southcentralus.api.azureml.ms', port=443): Max retries exceeded with url: /history/v1.0/subscriptions/61c5c3f0-6dc7-4ed9-a7f3-c704b20e3b30/resourceGroups/aml-quickstarts-153057/providers/Microsoft.MachineLearningServices/workspaces/quick-starts-ws-153057/experimentids/18f2f78c-8984-4595-9f59-06b1e5f931d5/runs/HD_0341301e-da13-4d2f-afc9-465a815bcd0f_4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb9cc8447b8>: Failed to establish a new connection: [Errno 111] Connection refused',)), Delay: 0, and Retry count: 1.
+2021-07-30 21:32:32,346|azureml._SubmittedRun#HD_0341301e-da13-4d2f-afc9-465a815bcd0f_4.RunHistoryFacade.RunClient|DEBUG|ClientBase: Calling get_by_exp_id with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experimentids/{experimentId}/runs/{runId}
+2021-07-30 21:32:35,163|azureml.core.authentication|DEBUG|Time to expire 1813952.836451 seconds
+2021-07-30 21:33:05,164|azureml.core.authentication|DEBUG|Time to expire 1813922.836054 seconds
+2021-07-30 21:33:35,164|azureml.core.authentication|DEBUG|Time to expire 1813892.83579 seconds
+2021-07-30 21:34:05,164|azureml.core.authentication|DEBUG|Time to expire 1813862.835424 seconds
+2021-07-30 21:34:17,008|azureml._SubmittedRun#HD_0341301e-da13-4d2f-afc9-465a815bcd0f_4.RunHistoryFacade.RunClient.get_by_exp_id-async:False|DEBUG|[STOP]
+2021-07-30 21:34:17,009|azureml._SubmittedRun#HD_0341301e-da13-4d2f-afc9-465a815bcd0f_4|DEBUG|Constructing run from dto. type: azureml.scriptrun, source: None, props: {'_azureml.ComputeTargetType': 'amlcompute', 'ContentSnapshotId': 'baf0d2c9-25e7-4829-b200-4f6803f0ede4', 'ProcessInfoFile': 'azureml-logs/process_info.json', 'ProcessStatusFile': 'azureml-logs/process_status.json', 'azureml.RuntimeType': 'Hosttools'}
+2021-07-30 21:34:17,009|azureml._SubmittedRun#HD_0341301e-da13-4d2f-afc9-465a815bcd0f_4.RunContextManager|DEBUG|Valid logs dir, setting up content loader
+2021-07-30 21:34:17,009|azureml.WorkerPool|DEBUG|[START]
+2021-07-30 21:34:17,009|azureml.TrackFolders|DEBUG|[START]
+2021-07-30 21:34:17,009|azureml|DEBUG|Executing history release.
+2021-07-30 21:34:17,009|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Uploading tracked directories: [], excluding ['azureml-logs/driver_log']
+2021-07-30 21:34:17,009|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Calling track for pyfs
+2021-07-30 21:34:17,010|azureml.TrackFolders|DEBUG|[STOP]
+2021-07-30 21:34:17,010|azureml.HistoryTrackingWorkerPool.WorkerPoolShutdown|DEBUG|[START]
+2021-07-30 21:34:17,010|azureml.HistoryTrackingWorkerPool.WorkerPoolShutdown|DEBUG|[STOP]
+2021-07-30 21:34:17,010|azureml.WorkerPool|DEBUG|[STOP]

@@ -1,0 +1,195 @@
+2021-07-30 21:30:36.7059|DEBUG|EngineHost|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|Startup|MessageParser initialized|
+2021-07-30 21:30:36.7526|DEBUG|EngineHost|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|Startup|MessageLoop initialized|
+2021-07-30 21:30:37.7778|DEBUG|Telemetry|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2021-07-30 21:30:37.7778|DEBUG|Telemetry|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ParseDelimitedBlock","id":"1"}|
+2021-07-30 21:30:37.7778|DEBUG|Telemetry|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.DropColumnsBlock","id":"2"}|
+2021-07-30 21:30:37.7778|DEBUG|Telemetry|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.TakeBlock","id":"3"}|
+2021-07-30 21:30:37.7778|DEBUG|Telemetry|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.WritePreppyBlock","id":"4"}|
+2021-07-30 21:30:37.7869|DEBUG|Caching|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-07-30 21:30:37.8015|DEBUG|Caching|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-07-30 21:30:37.8015|DEBUG|Caching|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-07-30 21:30:37.8269|DEBUG|DynamicPythonPathCLexExecutor|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|EnsureCLexExecutorReady|No more tasks in progress. Creating new CLexExecutor.|
+2021-07-30 21:30:37.8505|INFO|CLexExecutor|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "f0010946-1024-41c5-903b-46f4ded342a2"
+}
+2021-07-30 21:30:37.9384|DEBUG|CLex|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|MapReduceExecutor|Execution started|{
+  "ExecutionId": "202176c1-a0c7-485c-8512-c8884a144b79",
+  "Main": "DtG2jCojf/s3tnq+6LgLtLmTS5fQq0p6tBsKUvdrk+k="
+}
+2021-07-30 21:30:38.1188|DEBUG|Telemetry|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|event: YamlConverter|metrics: {"duration":37.0}, properties: {"hadException":"False","success":"True","conversionOperations":"{\"loadFiles\":[{\"file\":\"REDACTED\"}],\"readFiles\":{\"pathColumn\":\"REDACTED\",\"keepExistingColumns\":\"true\",\"reader\":\"textLines\",\"readerArguments\":{\"encoding\":\"utf-8\",\"supportMultiLine\":\"false\",\"delimiter\":\",\"}},\"splitByDelimiter\":{\"sourceColumn\":\"REDACTED\",\"delimiter\":\",\",\"emptyAsString\":\"false\"},\"dropColumns\":\"REDACTED\",\"take\":\"1\",\"writeFiles\":{\"writer\":\"preppy\",\"destination\":{\"directory\":\"REDACTED\",\"handler\":\"Local\"},\"writerArguments\":{\"profilingFields\":[\"REDACTED\",\"REDACTED\"]},\"existingFileHandling\":\"replace\"}}"}|
+2021-07-30 21:30:38.3268|DEBUG|CLex|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "202176c1-a0c7-485c-8512-c8884a144b79",
+  "Main": "DtG2jCojf/s3tnq+6LgLtLmTS5fQq0p6tBsKUvdrk+k="
+}
+2021-07-30 21:30:38.3328|DEBUG|Caching|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-07-30 21:30:38.3835|DEBUG|Caching|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-07-30 21:30:38.3878|DEBUG|Caching|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-07-30 21:30:38.3878|DEBUG|Caching|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-07-30 21:30:38.3975|INFO|CLexExecutor|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "33128fb9-f24b-463d-b85e-4eedef0d7d1c"
+}
+2021-07-30 21:30:38.4020|DEBUG|CLex|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|MapReduceExecutor|Execution started|{
+  "ExecutionId": "649d0d00-ef9a-4f52-8538-27a58a10cdd8",
+  "Main": "tj5j1kDETTrePlCXmtCQ0cx9LMocmTWtbd8FNyCfGmY="
+}
+2021-07-30 21:30:38.4020|DEBUG|CLex|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|QueryCacheOperationVisitor|Visiting activity. Activity: tj5j1kDETTrePlCXmtCQ0cx9LMocmTWtbd8FNyCfGmY=|
+2021-07-30 21:30:38.4186|DEBUG|CLex|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "ec54d6a2-428e-4b5b-8dc0-11ccbc494839",
+  "ContextTag": "0",
+  "ParentContextTag": ""
+}
+2021-07-30 21:30:38.8150|DEBUG|CLex|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "ec54d6a2-428e-4b5b-8dc0-11ccbc494839",
+  "ContextTag": "0",
+  "ParentContextTag": ""
+}
+2021-07-30 21:30:38.8150|DEBUG|CLex|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|QueryCache|Build RDD|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "11610580-64b1-45c5-986e-802af0dcfb1a",
+  "ContextTag": "1",
+  "ParentContextTag": "0"
+}
+2021-07-30 21:30:38.9946|DEBUG|CLex|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|QueryCache|Cache added|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "11610580-64b1-45c5-986e-802af0dcfb1a",
+  "ContextTag": "1",
+  "ParentContextTag": "0"
+}
+2021-07-30 21:30:38.9946|DEBUG|CLex|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|QueryCache|Build RDD|{
+  "Operation": "SplitColumnOperation",
+  "Reference": "",
+  "Tag": "11610580-64b1-45c5-986e-802af0dcfb1a",
+  "ContextTag": "2",
+  "ParentContextTag": "1"
+}
+2021-07-30 21:30:39.0001|DEBUG|CLex|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|QueryCache|Cache added|{
+  "Operation": "SplitColumnOperation",
+  "Reference": "",
+  "Tag": "11610580-64b1-45c5-986e-802af0dcfb1a",
+  "ContextTag": "2",
+  "ParentContextTag": "1"
+}
+2021-07-30 21:30:39.0009|DEBUG|CLex|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|QueryCache|Build RDD|{
+  "Operation": "RemoveColumnsOperation",
+  "Reference": "",
+  "Tag": "24c7a00f-c178-4c89-aaba-ebd9c5b90951",
+  "ContextTag": "3",
+  "ParentContextTag": "2"
+}
+2021-07-30 21:30:39.0009|DEBUG|CLex|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|QueryCache|Cache added|{
+  "Operation": "RemoveColumnsOperation",
+  "Reference": "",
+  "Tag": "24c7a00f-c178-4c89-aaba-ebd9c5b90951",
+  "ContextTag": "3",
+  "ParentContextTag": "2"
+}
+2021-07-30 21:30:39.0009|DEBUG|CLex|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|QueryCache|Build RDD|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "11610580-64b1-45c5-986e-802af0dcfb1a",
+  "ContextTag": "4",
+  "ParentContextTag": "3"
+}
+2021-07-30 21:30:39.0046|DEBUG|CLex|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|QueryCache|Cache added|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "11610580-64b1-45c5-986e-802af0dcfb1a",
+  "ContextTag": "4",
+  "ParentContextTag": "3"
+}
+2021-07-30 21:30:39.0046|DEBUG|CLex|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|QueryCache|Build RDD|{
+  "Operation": "SkipOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "5",
+  "ParentContextTag": "4"
+}
+2021-07-30 21:30:39.9553|DEBUG|CLex|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|QueryCache|Cache added|{
+  "Operation": "SkipOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "5",
+  "ParentContextTag": "4"
+}
+2021-07-30 21:30:39.9553|DEBUG|CLex|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|QueryCache|Build RDD|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "6",
+  "ParentContextTag": "5"
+}
+2021-07-30 21:30:39.9553|DEBUG|CLex|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|QueryCache|Cache added|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "6",
+  "ParentContextTag": "5"
+}
+2021-07-30 21:30:40.0662|DEBUG|CLex|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "649d0d00-ef9a-4f52-8538-27a58a10cdd8",
+  "Main": "tj5j1kDETTrePlCXmtCQ0cx9LMocmTWtbd8FNyCfGmY="
+}
+2021-07-30 21:30:40.1459|DEBUG|Caching|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-07-30 21:30:40.3065|DEBUG|Telemetry|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2021-07-30 21:30:40.3065|DEBUG|Telemetry|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ParseDelimitedBlock","id":"1"}|
+2021-07-30 21:30:40.3065|DEBUG|Telemetry|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.DropColumnsBlock","id":"2"}|
+2021-07-30 21:30:40.3065|DEBUG|Telemetry|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SetColumnTypesBlock","id":"3"}|
+2021-07-30 21:30:40.3065|DEBUG|Telemetry|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SetRsLexContextBlock","id":"4"}|
+2021-07-30 21:30:40.3065|DEBUG|Caching|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-07-30 21:30:40.3065|DEBUG|Caching|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-07-30 21:30:40.3065|DEBUG|Caching|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2021-07-30 21:30:40.3065|INFO|CLexExecutor|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "3a2fde7a-88c6-4724-89a8-557aeeaffa81"
+}
+2021-07-30 21:30:40.3090|DEBUG|CLex|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|MapReduceExecutor|Execution started|{
+  "ExecutionId": "f36de029-ea6e-402a-a0bc-0d67b867d257",
+  "Main": "KPwfDq7MMB1HRqFr9bkgxTJ1Yn2sRlyMsE7uJT2sNOc="
+}
+2021-07-30 21:30:40.3245|DEBUG|Telemetry|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|event: YamlConverter|metrics: {"duration":6.0}, properties: {"hadException":"False","success":"True","conversionOperations":"{\"loadFiles\":[{\"file\":\"REDACTED\"}],\"readFiles\":{\"pathColumn\":\"REDACTED\",\"keepExistingColumns\":\"true\",\"reader\":\"textLines\",\"readerArguments\":{\"encoding\":\"utf-8\",\"supportMultiLine\":\"false\",\"delimiter\":\",\"}},\"splitByDelimiter\":{\"sourceColumn\":\"REDACTED\",\"delimiter\":\",\",\"emptyAsString\":\"false\"},\"dropColumns\":\"REDACTED\",\"transformColumnTypes\":[{\"columns\":\"REDACTED\",\"targetType\":\"float\"},{\"columns\":\"REDACTED\",\"targetType\":\"float\"},{\"columns\":\"REDACTED\",\"targetType\":\"float\"},{\"columns\":\"REDACTED\",\"targetType\":\"float\"}]}"}|
+2021-07-30 21:30:40.3846|DEBUG|CLex|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "f36de029-ea6e-402a-a0bc-0d67b867d257",
+  "Main": "KPwfDq7MMB1HRqFr9bkgxTJ1Yn2sRlyMsE7uJT2sNOc="
+}
+2021-07-30 21:30:40.3846|DEBUG|Caching|l_0541028d-a080-4ddb-8c2e-c50feb2e43bd|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
