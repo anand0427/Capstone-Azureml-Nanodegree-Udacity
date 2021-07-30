@@ -95,6 +95,9 @@ To create a hyperdrove experiment a few steps need to be executed to setup the e
 9. Submit the experiment and wait for completion
 10. Get the best model and save. 
 
+![Diagram](./screenshots/12.PNG?raw=true "Training result")
+![Diagram](./screenshots/13.PNG?raw=true "Training result")
+![Diagram](./screenshots/14.PNG?raw=true "Training result")
 ***
 ## HyperDrive results
 
