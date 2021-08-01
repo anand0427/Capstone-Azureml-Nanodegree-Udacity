@@ -19,11 +19,11 @@ The problem is to create programmatically an AutoML experiement and a HyperDrive
 
 * Below image shows the architecture we will follow for the AutoML experiment. 
 
-![AutoML](./screenshots/18.PNG "AutoML")
+![AutoML](./screenshots/18.PNG)
 
 * Below image shows the architecture we will follow for the HyperDrive experiment. The project in this case requires only one of the models to be deployment and AutoML model was chosen to be deployed as a rest endpoint so the deployment step and the consumption step shown below is not executed in case of hyperdrive model. 
 
-![HyperDrive](./screenshots/19.PNG "HyperDrive")
+![HyperDrive](./screenshots/19.PNG)
 
 ***
 ## Project requirements
