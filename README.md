@@ -61,7 +61,23 @@ To train an automl model a few steps need to be executed to setup the experiemen
 3. Setup the compute
 4. Import the dataset into the workspace and register to datasets using Dataset package
 5. Create automl settings with parameters to timeout, concurrent iterations and metric to use
-6. Create automl config to use compute, data, target and early stopping
+6. Create automl config to use compute, data, target and enable early stopping, path folder. Below code block shows the configuration used for this particular experiement
+
+```
+AutoMLConfig(
+            compute_target=compute_target,
+            task = "classification",
+            training_data=dataset,
+            label_column_name="Column5",   
+            path = project_folder,
+            enable_early_stopping= True,
+            featurization= 'auto',
+            debug_log = "automl_errors.log",
+            **automl_settings
+)
+
+```
+
 7. Submit the experiment and wait for completion. 
 
 *** 
@@ -131,7 +147,7 @@ BanditPolicy(
     evaluation_interval=2, slack_factor=0.1
 )
 ```
-6. Use RandomParameterSampling with different parameters using --C and --max_iter of logistic regression. 
+6. Use RandomParameterSampling with different parameters using --C and --max_iter of logistic regression. Below code block shows the range of hyperparameter search and the values used to of find best hyperparameters. 
 ```
 "--C": uniform(0.1, 1),
 "--max_iter": choice(50, 75, 100, 150)
